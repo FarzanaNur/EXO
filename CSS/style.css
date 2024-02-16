@@ -404,13 +404,18 @@ footer .footer-social-media .fab:hover{
 
 }
 @media (max-width:561px) {
-    .navbar .navbar-content .nav-menu ul li {
-        
+    .navbar .navbar-content .nav-menu ul li {   
         margin: 30px 0px 20px 0px;
-        display: flex;
+        display: inline-flex;
+        margin-right: 8px;
     }
     .navbar .navbar-content .nav-menu ul li a {
         font-size: 0.6rem;
+    }
+    .navbar-content .nav-logo img{
+        height: 100%;
+        width: 35%;
+         
     }
     .members .members-grid{
         height: fit-content;
