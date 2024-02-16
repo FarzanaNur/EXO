@@ -36,14 +36,11 @@
 
 /* navbar section */
 .navbar{
-    background-color: #d0d08669;
-    box-shadow: 0 0 5% rgb(31, 19, 5);
-    padding: 20px;
+    background-color: #d0d0863b;
+    padding: 10px;
     align-items: center;
     position: static;
     box-shadow: 0 0 10px rgb(121, 91, 60);
-    justify-content: space-between;
-    align-items: center;
 }
 .navbar-content{
     display: flex;
@@ -54,7 +51,7 @@
 .navbar-content .nav-logo img{
     height: 80%;
     width: 55%;
-    margin: 10px;  
+     
 }
 .navbar .navbar-content .nav-menu ul li {
     display: inline-flex;
